@@ -60,7 +60,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--cor-fonte);
+    color: var(--cor-btn-font);
 }
 
 .banner p {
@@ -343,7 +343,8 @@ ul {
 /* ------------- Listagem de produtos -------------- */
 
 .novoMenu nav ul li a {
-    color: var(--cor-padrao);
+    color: var(--cor-btn-font);
+    
 }
 
 .novoMenu {
@@ -406,6 +407,10 @@ ul {
         color: var(--cor-padrao);
     }
 
+    .novoMenu nav ul li a {
+        color: var(--cor-padrao);
+    }
+
     .menu-celular{
         display: block;
         cursor: pointer;
@@ -435,4 +440,14 @@ ul {
     .col-4 p {
         font-size: 27px;
     }
+}
+
+/* ------------- Cor Header -------------- */
+
+#inicio-page {
+    color: red;
+}
+
+#produto-page {
+    color: red;
 }
